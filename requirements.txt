@@ -1,0 +1,16 @@
+pypdf
+python-dotenv
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+elasticsearch
+langchain[llms]
+torch
+transformers
+CTransformers
+sentence_transformers
+accelerate
+bitsandbytes
+transformers
+sentence_transformers
