@@ -84,5 +84,5 @@ class ChatBot():
         self.llm_wrapper = self.lang_model()
         self.elastic_base = self.data_base()
         self.pdfbot = self.bot_chain(self.prompt, self.llm_wrapper, self.elastic_base)
-        print("\nBot loaded with QnA Retreival Chain....\n")
+        print("\nVenkat's PdfBot loaded with QnA Retreival Chain....\n")
         return self.pdfbot
