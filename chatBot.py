@@ -9,7 +9,7 @@ from langchain.chains import RetrievalQA
 from langchain.embeddings import HuggingFaceEmbeddings
 
 HUGFACE_MODEL = "thenlper/gte-large"
-LLAMA_MODEL = "llama7B/llama-2-7b-chat.ggmlv3.q4_0.bin"
+LLAMA_MODEL = "llama7B/llama-2-7b-chat.ggmlv3.q4_0.bin" # replace this with your path to the downloaded Llama model
 LLAMA_TYPE = "llama"
 MAX_TKN = 256
 INPUT_PROMPT = """ Context : {context}
