@@ -6,6 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from chatBot import ChatBot
 from elasticdb import process_pdf_and_create_vector_store
+
 from typing import List
 import uvicorn
 
